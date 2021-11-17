@@ -1,0 +1,38 @@
+nav {
+  font-family: Helvetica, sans-serif;
+
+  height: 4rem;
+  width: 100%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+
+  background: red;
+  padding: 1.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  width: 20%;
+
+  display: flex;
+  justify-content: start;
+}
+
+.middle {
+  width: 60%;
+
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  width: 20%;
+
+  display: flex;
+  justify-content: end;
+}
