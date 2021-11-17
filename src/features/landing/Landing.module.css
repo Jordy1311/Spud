@@ -1,0 +1,30 @@
+.main {
+  border-radius: 32px;
+  height: 100%;
+  width: 100%;
+
+  background: rgb(47,136,255);
+  background: linear-gradient(180deg, rgba(47,136,255,1) 40%, rgba(136,187,255,1) 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotating {
+  animation: rotating 1.5s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.svg {
+  composes: rotating;
+  height: 10rem;
+}
